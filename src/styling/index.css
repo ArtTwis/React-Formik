@@ -49,6 +49,7 @@ label {
 }
 
 button {
+  display: block;
   margin: 1rem 0rem;
   padding: 0.5rem 1rem;
 }
@@ -75,4 +76,22 @@ textarea {
 
 .error {
   color: red;
+}
+
+.fieldArray {
+  width: 400px;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.fieldArray input {
+  height: 35px;
+  padding: 6px;
+  margin-right: 1rem;
+  margin-bottom: 0px;
+}
+
+.fieldArray button {
+  padding: 0px 9px;
+  margin: 0;
 }
